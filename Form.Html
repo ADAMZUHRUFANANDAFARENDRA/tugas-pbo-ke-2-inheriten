@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+#include<iostream></iostream>
+
+using namespace std;
+int <main></main>
+
+<html>
+<head>
+    <title>Inheritance Bangun Datar <title></title>
+        class BangunDatar {
+            // implementasi kelas induk (jika ada)
+        };
+        
+        class Persegi : public BangunDatar {
+        public:
+            // implementasi kelas anak (persegi)
+            void hitungLuas() {
+                // logika perhitungan luas persegi
+            }
+        };
+        
+        class PersegiPanjang : public BangunDatar {
+        public:
+            // implementasi kelas anak (persegi panjang)
+            void hitungLuas() {
+                // logika perhitungan luas persegi panjang
+            }
+        };
+        
+        class Segitiga : public BangunDatar {
+        public:
+            // implementasi kelas anak (segitiga)
+            void hitungLuas() {
+                // logika perhitungan luas persegi panjang
+            }
+        };
+        
+        class Segitiga : public BangunDatar {
+        public:
+            // implementasi kelas anak (segitiga)
+            void hitungLuas() {
+                // logika perhitungan luas segitiga
+            }
+        };
+        
+        class Lingkaran : public BangunDatar {
+        public:
+            // implementasi kelas anak (lingkaran)
+            void hitungLuas() {
+                // logika perhitungan luas lingkaran
+            }
+        };
+        
+    </title>
+</head>
+<body>
+
+<h2>Form Bangun Datar</h2>
+
+int main() {
+    // Pemrosesan form
+    string pilihan;
+    cout << "Pilih Bangun Datar: ";
+    cin >> pilihan;
+
+    // Membuat objek sesuai pilihan
+    if (pilihan == "persegi") {
+        Persegi persegi;
+        persegi.hitungLuas();
+    } else if (pilihan == "persegi_panjang") {
+        PersegiPanjang persegiPanjang;
+        persegiPanjang.hitungLuas();
+    } else if (pilihan == "segitiga") {
+        Segitiga segitiga;
+        segitiga.hitungLuas();
+    } else if (pilihan == "lingkaran") {
+        Lingkaran lingkaran;
+        lingkaran.hitungLuas();
+    } else {
+        cout << "Pilihan tidak valid" << endl;
+        return 1;
+    }
+
+    return 0;
+}
+<form action="proses.cpp" method="post">
+    <label>Pilih Bangun Datar:</label>
+    <select name="pilihan">
+        <option value="persegi">Persegi</option>
+        <option value="persegi_panjang">Persegi Panjang</option>
+        <option value="segitiga">Segitiga</option>
+        <option value="lingkaran">Lingkaran</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Hitung Luas">
+</form>
+
+</body>
+</html>
+
+<html>
+<head>
+    <title>Inheritance Bangun Datar</title>
+</head>
+<body>
+
+<h2>Form Bangun Datar</h2>
+<form action="proses.php" method="post">
+    <label>Pilih Bangun Datar:</label>
+    <select name="pilihan">
+        <option value="persegi">Persegi</option>
+        <option value="persegi_panjang">Persegi Panjang</option>
+        <option value="segitiga">Segitiga</option>
+        <option value="lingkaran">Lingkaran</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Hitung Luas">
+</form>
+
+</body>
+</html>
+
+{
+return 0;
+}
