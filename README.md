@@ -1,0 +1,1 @@
+# tugas-pbo-ke-2-inheriten
